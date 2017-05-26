@@ -1,0 +1,25 @@
+# Part I - Administrative {-}
+
+
+# Introduction
+
+
+## What is DAACS?
+
+
+### Key Feature List
+
+
+## Why is DAACS necessary?
+
+
+## Review of Literature supporting DAACS
+
+
+## Implementation considerations. 
+ 
+
+### Three levels of student interaction with DAACS.
+
+
+### Role of advisors and mentors.

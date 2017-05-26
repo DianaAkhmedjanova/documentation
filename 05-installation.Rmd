@@ -1,0 +1,6 @@
+# Part II - Technical Specifications {-}
+
+Part two of this manual will describe the technical details about deploying DAACS.
+
+# Installation
+
