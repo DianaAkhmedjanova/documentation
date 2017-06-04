@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/DAACS/documentation.svg?branch=master)](https://travis-ci.org/DAACS/documentation)
 
-This repository contains the source for the DAACS documentation. The documentation is built using [Bookdown](https://bookdown.org/yihui/bookdown/) and is available at [documentation.daacs.net](documentation.daacs.net).
+This repository contains the source for the DAACS documentation. The documentation is built using [Bookdown](https://bookdown.org/yihui/bookdown/) and is available at [docs.daacs.net](docs.daacs.net).
 
 ________________________________________________________________________________
 
