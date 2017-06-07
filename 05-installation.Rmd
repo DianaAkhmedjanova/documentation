@@ -7,7 +7,9 @@ DAACS was designed to be easily deployed to a cloud-hosting environment. The aut
 
 ## Application Architecture
 
-##Installation
+
+
+## Installation
 
 This manual assumes that the reader is familiar with Amazon Web Services EC2 and has an established AWS environment. For more information regarding getting started with AWS, please see <a href'"http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html">Amazon AWS setup</a>
 
