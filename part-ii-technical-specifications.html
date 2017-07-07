@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Diagnostic Assessment and Achievement of College Skills</title>
   <meta name="description" content="DAACS is a diagnostic assessment designed to help students transition to college. DAACS provides personalized feedback about students’ strengths and weaknesses in terms of key academic and self-regulated learning skills, linking them to the resources to help them be successful students.">
-  <meta name="generator" content="bookdown 0.4 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.4.1 and GitBook 2.6.7">
 
   <meta property="og:title" content="Diagnostic Assessment and Achievement of College Skills" />
   <meta property="og:type" content="book" />
@@ -32,7 +32,7 @@
   
   
 <link rel="prev" href="predicting-student-success.html">
-<link rel="next" href="installation.html">
+<link rel="next" href="dashboards.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -84,11 +84,14 @@
 </ul></li>
 <li class="chapter" data-level="3" data-path="training.html"><a href="training.html"><i class="fa fa-check"></i><b>3</b> Training</a></li>
 <li class="chapter" data-level="4" data-path="predicting-student-success.html"><a href="predicting-student-success.html"><i class="fa fa-check"></i><b>4</b> Predicting Student Success</a></li>
-<li class="chapter" data-level="" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html"><i class="fa fa-check"></i>Part II - Technical Specifications</a></li>
-<li class="chapter" data-level="5" data-path="installation.html"><a href="installation.html"><i class="fa fa-check"></i><b>5</b> Installation</a></li>
-<li class="chapter" data-level="6" data-path="dashboards.html"><a href="dashboards.html"><i class="fa fa-check"></i><b>6</b> Dashboards</a></li>
-<li class="chapter" data-level="7" data-path="data-extraction.html"><a href="data-extraction.html"><i class="fa fa-check"></i><b>7</b> Data Extraction</a></li>
-<li class="chapter" data-level="8" data-path="customizing-daacs.html"><a href="customizing-daacs.html"><i class="fa fa-check"></i><b>8</b> Customizing DAACS</a></li>
+<li class="chapter" data-level="" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html"><i class="fa fa-check"></i>Part II - Technical Specifications</a><ul>
+<li class="chapter" data-level="4.1" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html#hosting-environment"><i class="fa fa-check"></i><b>4.1</b> Hosting Environment</a></li>
+<li class="chapter" data-level="4.2" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html#application-architecture"><i class="fa fa-check"></i><b>4.2</b> Application Architecture</a></li>
+<li class="chapter" data-level="4.3" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html#installation"><i class="fa fa-check"></i><b>4.3</b> Installation</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="dashboards.html"><a href="dashboards.html"><i class="fa fa-check"></i><b>5</b> Dashboards</a></li>
+<li class="chapter" data-level="6" data-path="data-extraction.html"><a href="data-extraction.html"><i class="fa fa-check"></i><b>6</b> Data Extraction</a></li>
+<li class="chapter" data-level="7" data-path="customizing-daacs.html"><a href="customizing-daacs.html"><i class="fa fa-check"></i><b>7</b> Customizing DAACS</a></li>
 </ul>
 
       </nav>
@@ -109,6 +112,28 @@
 <div id="part-ii---technical-specifications" class="section level1 unnumbered">
 <h1>Part II - Technical Specifications</h1>
 <p>Part two of this manual will describe the technical details about deploying DAACS.</p>
+<div id="hosting-environment" class="section level2">
+<h2><span class="header-section-number">4.1</span> Hosting Environment</h2>
+<p>DAACS was designed to be easily deployed to a cloud-hosting environment. The author assumes the use of Amazon cloud services. However, the reader may safely choose any environment capable of operating the required version of the Linux operating system (e.g. other virtualization technology, physical platform, etc.).</p>
+</div>
+<div id="application-architecture" class="section level2">
+<h2><span class="header-section-number">4.2</span> Application Architecture</h2>
+</div>
+<div id="installation" class="section level2">
+<h2><span class="header-section-number">4.3</span> Installation</h2>
+<p>This manual assumes that the reader is familiar with Amazon Web Services EC2 and has an established AWS environment. For more information regarding getting started with AWS, please see &lt;a href’“<a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html" class="uri">http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html</a>”&gt;Amazon AWS setup</a></p>
+<p>Generic Steps to install DAACS:</p>
+<ol style="list-style-type: decimal">
+<li>Create AWS EC2 instance</li>
+<li>Select the proper Amazon Machine Image (AMI) and install the image</li>
+<li>Java install</li>
+<li>Docker install</li>
+<li>System configuration</li>
+<li>Install daacsweb and daacsapi Docker containers</li>
+<li>What am I missing?</li>
+</ol>
+
+</div>
 </div>
             </section>
 
@@ -116,7 +141,7 @@
         </div>
       </div>
 <a href="predicting-student-success.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="installation.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="dashboards.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
