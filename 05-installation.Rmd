@@ -2,21 +2,14 @@
 
 Part two of this manual will describe the technical details about deploying DAACS.
 
-## Application Architecture
-
-## Application Dependencies
-The DAACS application relies on external services, in order to function. These are services that the institution must provision and configure; they are not services provided by the DAACS application. The most important services is user authentication via Single-Sign-On (SSO) with SAML. 
-
-### Single-Sign-On (SSO)
-DAACS application behavior is driven by the user's role. To authenticate users and present the appropriate application behavior, your institution must have a SSO capability that can exchange SAML messages. Those SAML messages must contain information regarding the user's role.
-
 ## Hosting Environment
 DAACS was designed to be easily deployed to a cloud-hosting environment. The author assumes the use of Amazon cloud services. However, the reader may safely choose any environment capable of operating the required version of the Linux operating system (e.g. other virtualization technology, physical platform, etc.).
 
-## Installation
-The DAACS application has been tuned to service large volumes of students, on relatively modest hardware, be that hardware virtual or physical.
+## Application Architecture
 
-![alt text](https://github.com/DAACS/documentation/blob/master/figures/DAACS_logo.png "DAACS User Authentication Dataflow Diagram")
+
+
+## Installation
 
 This manual assumes that the reader is familiar with Amazon Web Services EC2 and has an established AWS environment. For more information regarding getting started with AWS, please see <a href'"http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html">Amazon AWS setup</a>
 
@@ -29,64 +22,3 @@ Generic Steps to install DAACS:
 5. System configuration
 6. Install daacsweb and daacsapi Docker containers
 7. What am I missing?
-
-### Step 1. Create AWS Instance
-The DAACS application has been tuned to service large volumes of students, on relatively modest virtual hardware. 
-
-Operating System
-
-Distributor ID: Ubuntu
-Description:    Ubuntu 16.04.1 LTS
-Release:        16.04
-Codename:       xenial
-
-Memory
-8GB
-
-Storage
-Filesystem     1K-blocks     Used Available Use% Mounted on
-udev             4066956        0   4066956   0% /dev
-tmpfs             817368    82644    734724  11% /run
-/dev/xvda1      30824584 15860608  13606296  54% /
-tmpfs            4086828      504   4086324   1% /dev/shm
-tmpfs               5120        0      5120   0% /run/lock
-tmpfs            4086828        0   4086828   0% /sys/fs/cgroup
-tmpfs             817372        0    817372   0% /run/user/2003
-
-
-### Step 2. Select the proper Amazon Machine Image (AMI) and install the image
-
-### Step 3. Java install
-
-### Step 4. Docker install
-
-Since Docker is a required technology, some of the system requirements are driven by the Docker requirements. For accurate information regarding Docker requirements, please reference: 
-
-https://docs.docker.com/engine/installation/linux/ubuntu/#prerequisites
-
-https://docs.docker.com/engine/installation/binaries/DAACS has been tested with the following version of Docker:
-
-DAACS has been operated in production on the following Docker version information:
-
-Client:
- Version:      1.13.0
- API version:  1.25
- Go version:   go1.7.3
- Git commit:   49bf474
- Built:        Tue Jan 17 09:58:26 2017
- OS/Arch:      linux/amd64
-
-Server:
- Version:      1.13.0
- API version:  1.25 (minimum version 1.12)
- Go version:   go1.7.3
- Git commit:   49bf474
- Built:        Tue Jan 17 09:58:26 2017
- OS/Arch:      linux/amd64
- Experimental: false
-
-### Step 5. System configuration
-
-### Step 6. Install daacsweb and daacsapi Docker containers
-
-### Step 7. What am I missing?
