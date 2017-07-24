@@ -85,9 +85,20 @@
 <li class="chapter" data-level="3" data-path="training.html"><a href="training.html"><i class="fa fa-check"></i><b>3</b> Training</a></li>
 <li class="chapter" data-level="4" data-path="predicting-student-success.html"><a href="predicting-student-success.html"><i class="fa fa-check"></i><b>4</b> Predicting Student Success</a></li>
 <li class="chapter" data-level="" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html"><i class="fa fa-check"></i>Part II - Technical Specifications</a><ul>
-<li class="chapter" data-level="4.1" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html#hosting-environment"><i class="fa fa-check"></i><b>4.1</b> Hosting Environment</a></li>
-<li class="chapter" data-level="4.2" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html#application-architecture"><i class="fa fa-check"></i><b>4.2</b> Application Architecture</a></li>
-<li class="chapter" data-level="4.3" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html#installation"><i class="fa fa-check"></i><b>4.3</b> Installation</a></li>
+<li class="chapter" data-level="4.1" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html#application-architecture"><i class="fa fa-check"></i><b>4.1</b> Application Architecture</a></li>
+<li class="chapter" data-level="4.2" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html#application-dependencies"><i class="fa fa-check"></i><b>4.2</b> Application Dependencies</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html#single-sign-on-sso"><i class="fa fa-check"></i><b>4.2.1</b> Single-Sign-On (SSO)</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html#hosting-environment"><i class="fa fa-check"></i><b>4.3</b> Hosting Environment</a></li>
+<li class="chapter" data-level="4.4" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html#installation"><i class="fa fa-check"></i><b>4.4</b> Installation</a><ul>
+<li class="chapter" data-level="4.4.1" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html#step-1.-create-aws-instance"><i class="fa fa-check"></i><b>4.4.1</b> Step 1. Create AWS Instance</a></li>
+<li class="chapter" data-level="4.4.2" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html#step-2.-select-the-proper-amazon-machine-image-ami-and-install-the-image"><i class="fa fa-check"></i><b>4.4.2</b> Step 2. Select the proper Amazon Machine Image (AMI) and install the image</a></li>
+<li class="chapter" data-level="4.4.3" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html#step-3.-java-install"><i class="fa fa-check"></i><b>4.4.3</b> Step 3. Java install</a></li>
+<li class="chapter" data-level="4.4.4" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html#step-4.-docker-install"><i class="fa fa-check"></i><b>4.4.4</b> Step 4. Docker install</a></li>
+<li class="chapter" data-level="4.4.5" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html#step-5.-system-configuration"><i class="fa fa-check"></i><b>4.4.5</b> Step 5. System configuration</a></li>
+<li class="chapter" data-level="4.4.6" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html#step-6.-install-daacsweb-and-daacsapi-docker-containers"><i class="fa fa-check"></i><b>4.4.6</b> Step 6. Install daacsweb and daacsapi Docker containers</a></li>
+<li class="chapter" data-level="4.4.7" data-path="part-ii-technical-specifications.html"><a href="part-ii-technical-specifications.html#step-7.-what-am-i-missing"><i class="fa fa-check"></i><b>4.4.7</b> Step 7. What am I missing?</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="dashboards.html"><a href="dashboards.html"><i class="fa fa-check"></i><b>5</b> Dashboards</a></li>
 <li class="chapter" data-level="6" data-path="data-extraction.html"><a href="data-extraction.html"><i class="fa fa-check"></i><b>6</b> Data Extraction</a></li>
@@ -112,15 +123,28 @@
 <div id="part-ii---technical-specifications" class="section level1 unnumbered">
 <h1>Part II - Technical Specifications</h1>
 <p>Part two of this manual will describe the technical details about deploying DAACS.</p>
+<div id="application-architecture" class="section level2">
+<h2><span class="header-section-number">4.1</span> Application Architecture</h2>
+</div>
+<div id="application-dependencies" class="section level2">
+<h2><span class="header-section-number">4.2</span> Application Dependencies</h2>
+<p>The DAACS application relies on external services, in order to function. These are services that the institution must provision and configure; they are not services provided by the DAACS application. The most important services is user authentication via Single-Sign-On (SSO) with SAML.</p>
+<div id="single-sign-on-sso" class="section level3">
+<h3><span class="header-section-number">4.2.1</span> Single-Sign-On (SSO)</h3>
+<p>DAACS application behavior is driven by the user’s role. To authenticate users and present the appropriate application behavior, your institution must have a SSO capability that can exchange SAML messages. Those SAML messages must contain information regarding the user’s role.</p>
+</div>
+</div>
 <div id="hosting-environment" class="section level2">
-<h2><span class="header-section-number">4.1</span> Hosting Environment</h2>
+<h2><span class="header-section-number">4.3</span> Hosting Environment</h2>
 <p>DAACS was designed to be easily deployed to a cloud-hosting environment. The author assumes the use of Amazon cloud services. However, the reader may safely choose any environment capable of operating the required version of the Linux operating system (e.g. other virtualization technology, physical platform, etc.).</p>
 </div>
-<div id="application-architecture" class="section level2">
-<h2><span class="header-section-number">4.2</span> Application Architecture</h2>
-</div>
 <div id="installation" class="section level2">
-<h2><span class="header-section-number">4.3</span> Installation</h2>
+<h2><span class="header-section-number">4.4</span> Installation</h2>
+<p>The DAACS application has been tuned to service large volumes of students, on relatively modest hardware, be that hardware virtual or physical.</p>
+<div class="figure">
+<img src="https://github.com/DAACS/documentation/blob/master/figures/DAACS_logo.png" title="DAACS User Authentication Dataflow Diagram" alt="alt text" />
+<p class="caption">alt text</p>
+</div>
 <p>This manual assumes that the reader is familiar with Amazon Web Services EC2 and has an established AWS environment. For more information regarding getting started with AWS, please see &lt;a href’“<a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html" class="uri">http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html</a>”&gt;Amazon AWS setup</a></p>
 <p>Generic Steps to install DAACS:</p>
 <ol style="list-style-type: decimal">
@@ -132,7 +156,39 @@
 <li>Install daacsweb and daacsapi Docker containers</li>
 <li>What am I missing?</li>
 </ol>
+<div id="step-1.-create-aws-instance" class="section level3">
+<h3><span class="header-section-number">4.4.1</span> Step 1. Create AWS Instance</h3>
+<p>The DAACS application has been tuned to service large volumes of students, on relatively modest virtual hardware.</p>
+<p>Operating System</p>
+<p>Distributor ID: Ubuntu Description: Ubuntu 16.04.1 LTS Release: 16.04 Codename: xenial</p>
+<p>Memory 8GB</p>
+<p>Storage Filesystem 1K-blocks Used Available Use% Mounted on udev 4066956 0 4066956 0% /dev tmpfs 817368 82644 734724 11% /run /dev/xvda1 30824584 15860608 13606296 54% / tmpfs 4086828 504 4086324 1% /dev/shm tmpfs 5120 0 5120 0% /run/lock tmpfs 4086828 0 4086828 0% /sys/fs/cgroup tmpfs 817372 0 817372 0% /run/user/2003</p>
+</div>
+<div id="step-2.-select-the-proper-amazon-machine-image-ami-and-install-the-image" class="section level3">
+<h3><span class="header-section-number">4.4.2</span> Step 2. Select the proper Amazon Machine Image (AMI) and install the image</h3>
+</div>
+<div id="step-3.-java-install" class="section level3">
+<h3><span class="header-section-number">4.4.3</span> Step 3. Java install</h3>
+</div>
+<div id="step-4.-docker-install" class="section level3">
+<h3><span class="header-section-number">4.4.4</span> Step 4. Docker install</h3>
+<p>Since Docker is a required technology, some of the system requirements are driven by the Docker requirements. For accurate information regarding Docker requirements, please reference:</p>
+<p><a href="https://docs.docker.com/engine/installation/linux/ubuntu/#prerequisites" class="uri">https://docs.docker.com/engine/installation/linux/ubuntu/#prerequisites</a></p>
+<p><a href="https://docs.docker.com/engine/installation/binaries/DAACS" class="uri">https://docs.docker.com/engine/installation/binaries/DAACS</a> has been tested with the following version of Docker:</p>
+<p>DAACS has been operated in production on the following Docker version information:</p>
+<p>Client: Version: 1.13.0 API version: 1.25 Go version: go1.7.3 Git commit: 49bf474 Built: Tue Jan 17 09:58:26 2017 OS/Arch: linux/amd64</p>
+<p>Server: Version: 1.13.0 API version: 1.25 (minimum version 1.12) Go version: go1.7.3 Git commit: 49bf474 Built: Tue Jan 17 09:58:26 2017 OS/Arch: linux/amd64 Experimental: false</p>
+</div>
+<div id="step-5.-system-configuration" class="section level3">
+<h3><span class="header-section-number">4.4.5</span> Step 5. System configuration</h3>
+</div>
+<div id="step-6.-install-daacsweb-and-daacsapi-docker-containers" class="section level3">
+<h3><span class="header-section-number">4.4.6</span> Step 6. Install daacsweb and daacsapi Docker containers</h3>
+</div>
+<div id="step-7.-what-am-i-missing" class="section level3">
+<h3><span class="header-section-number">4.4.7</span> Step 7. What am I missing?</h3>
 
+</div>
 </div>
 </div>
             </section>
