@@ -1,3 +1,148 @@
 # Training
 
+3.1 ## Goals and Objectives of the DAACS Training 
 
+### Course Description and Purpose
+
+The Diagnostic Assessment and Achievement of College Skills (DAACS) aims to improve student outcomes by providing students with information about their preparedness in math, reading, writing, and self-regulated learning skills, as well as feedback and resources to help them improve upon areas of weakness. 
+
+Advisors, coaches, and mentors can also use the information, feedback, and resources from DAACS in their work with students. In order to do so, it is important to have a good understanding of what the DAACS has to offer. The main purpose of the DAACS Training is to prepare advisors, coaches, and mentors to take advantage of the wealth of information about students’ preparedness for college, much of which is unavailable elsewhere.
+
+### Learning objectives
+
+By the end of this training you can expect to be able to:
+
+1.  explain the DAACS project, goals, and features, including the assessments of self-regulated learning (SRL), writing, math, and reading;
+
+2. interpret the results of the SRL survey, writing, math, and reading assessments;
+
+3. interpret the feedback on the SRL survey, writing, math, and reading assessments; 
+
+4. identify useful resources for students;
+
+5. encourage students set learning goals, select strategies, and use resources in order to become more self-regulated:
+
+6. trouble shoot difficulties students may have while using learning strategies and resources.
+
+3.2 ## Things to Think About When Using the DAACS
+
+There are several issues to keep in mind as you work with the DAACS. Please read about the issues we anticipate, and add to the list if you think of others.
+
+**Honesty**: Some people have expressed skepticism about students’ honesty when taking the SRL survey, especially since it is to be done during orientation, when people want to put their best foot forward. The survey will explicitly encourage honesty but of course we cannot guarantee it. Nonetheless, the SRL survey is likely to help advisors uncover issues that otherwise might take months to reveal.
+
+**Expectations**: Research on teacher expectations shows that they are quite powerful. When teachers, advisors, and coaches have high expectations for students, they tend to design more challenging tasks, provide more support, and create warmer learning environments. As a result, students’ achievement increases. The scary part is that the reverse is also true: Low expectations have been causally linked with poorer student performance. Teachers, advisors, and coaches communicate their expectations in subtle and not-so-subtle ways, e.g. teachers can assign higher grades for those students’ who they expect to have higher ability, even when this is not the case. For another example, teachers' perceptions about students’ willingness to put effort into tasks sometimes depends on students’ gender--but should not. We all have to be aware of and manage how students’ DAACS results influence our expectations of them and how, as a result, we interact with them. We should make sure to set high, reasonable, and flexible expectations for our students.
+
+**Data contamination**: New students will be randomly assigned to the DAACS treatment or to the control conditions. Students in the DAACS treatment will be directed to take all four assessments and provided with feedback and resources. Students in the control condition will not have access to DAACS at this stage of the project. To ensure smooth development of the project, it is important to keep in mind that control students should not be directed the DAACS nor to its feedback and resources. If the DAACS performs as expected, it will become available to all students in a year or so. 
+
+### Slides -- DAACS Training PDF should be attached here
+
+3.3 ## DAACS Resources
+
+### Interpret results and feedback
+
+After taking all four DAACS assessment, you received your results and feedback. Review your results and, in the discussion section below, please:
+
+1. Summarize your results,
+
+2. Identify areas that could be improved,
+
+3. Review the resources that were recommended to you.
+
+### Feedback and Resources
+
+Explore DAACS feedback and resources by clicking on these links:
+
+Writing: (http://owl.excelsior.edu/)
+
+Reading: (http://owl.excelsior.edu/orc)
+
+Math: (http://www.mathsisfun.com/)
+
+SRL lab: (http://srl.daacs.net/)
+
+3.4 ## Take DAACS
+
+Go to (demo.daacs.net). Once there, click the "Create Account" in the upper right corder of the page. This will allow you to create an account on the DAACS site. Once done, click the "myDAACS" link and begin the assessments. Note that this is a demo, or testing, site. Students will access a different site that is connected with their college login. You will also have access to that site in order to view students results. Unfortunately you cannot take the assessment on that site with advisor privileges.
+
+**NOTE**: You will receive immediate feedback on your self-regulated learning, reading, and math skills. However, it will take several weeks before feedback for writing is available.
+
+3.5 ## Share your Stories
+
+Because you have extensive experience interacting with different types of students, we invite you to share one or two memorable stories about helping students become successful in college. We hope to use your stories in this training in future. 
+
+Insert the DAACS Guide: Self-Regulated Learning here
+
+3.6 ## Feedback on DAACS
+
+Now you should be able to:
+
+1.  explain the DAACS project, goals, and features, including the assessments of self-regulated learning (SRL), writing, math, and reading;
+
+2. interpret the results of the SRL survey, writing, math, and reading assessments;
+
+3. interpret the feedback on the SRL survey, writing, math, and reading assessments; 
+
+4. identify useful resources for students;
+
+5. encourage students set learning goals, select strategies, and use resources in order to become more self-regulated:
+
+6. trouble shoot difficulties students may have while using learning strategies and resources.
+
+Keeping this objectives in mind, please reflect on your experiences with DAACS and respond to the following questions.
+
+1. What seems to work well in DAACS?
+
+2. What does not work well?
+
+3. How might DAACS be improved?
+
+3.7 ## End of Training Survey
+
+1. Do you think using DAACS would increase your confidence in advising students in becoming ready for college?  
+
+    Yes
+    No
+    I'm not sure
+    
+2. How confident do you now feel about your ability to support students regarding their college readiness?
+
+    No confidence
+    Limited confidence
+    Moderately confident
+    Very confident
+    
+3. What did you like about this training? 
+
+4. How can we improve the DAACS training for next time? 
+
+5. What additional questions do you have about DAACS? 
+
+3.8 ## Library
+
+### Teaching a Growth Mindset with Carol Dweck
+<a href="https://www.youtube.com/watch?v=isHM1rEd3GE=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="https://www.youtube.com/watch?v=isHM1rEd3GE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+### Even Geniuses Work Hard - C. Dweck -- Insert the PDF
+
+### 2013 TED Talk by Angela Duckworth 
+<a href="https://www.youtube.com/watch?v=H14bBuluwB8=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="https://www.youtube.com/watch?v=H14bBuluwB8/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+### Developing Reflective Learners - M. Johnson - Insert the PDF
+
+### Carol Dweck on "false growth mindset"
+(https://www.theatlantic.com/education/archive/2016/12/how-praise-became-a-consolation-prize/510845/)
+
+### 
+Motivation and Learning Strategies for College Success: A Focus on Self-Regulated Learning 4th Edition
+(https://www.amazon.com/Motivation-Learning-Strategies-College-Success/dp/0415894204)
+
+### Choice Words by Peter Johnston
+(https://www.stenhouse.com/content/choice-words) 
+
+### Thoughts, Questions, and Ideas
+
+Encounter anything interesting? Have an idea, or two or three? Share them here!
